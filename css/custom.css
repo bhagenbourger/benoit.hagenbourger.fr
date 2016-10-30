@@ -1,30 +1,25 @@
-.circle-big {
+.circle{
     position: relative;
-    width: 35em;
-    height: 35em;
-    border: dashed 1px;
+    border: solid 1px white;
     border-radius: 50%;
     margin: 1.75em auto 0;
+}
+
+.circle-big {
+    width: 35em;
+    height: 35em;
 }
 
 .circle-medium {
-    position: relative;
     top: 3em;
     width: 25em;
     height: 25em;
-    border: dashed 1px;
-    border-radius: 50%;
-    margin: 1.75em auto 0;
 }
 
 .circle-little {
-    position: relative;
     top: 3em;
     width: 15em;
     height: 15em;
-    border: dashed 1px;
-    border-radius: 50%;
-    margin: 1.75em auto 0;
 }
 
 .circle-big a {
@@ -35,60 +30,69 @@
     margin: -2em;
 }
 
-.circle-big img { 
+.circle-big a img { 
   display: block; width: 100%;
   transition: 0.5s ease;
 }
 
-.circle-big img:hover{
+.circle-big a img:hover{
     transform: scale(1.2) rotate(360deg);
-   transition-duration: 0.5s;
+    transition-duration: 0.5s;
+}
+
+.me{
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 8em; height: 8em;
+    border-radius: 50%;
+    margin: -4em;
 }
 
 .linkedin { 
-  transform: rotate(285deg) translate(7.5em) rotate(-285deg); 
+  transform: rotate(120deg) translate(7.5em) rotate(-120deg); 
 }
 
 .viadeo { 
-  transform: rotate(35deg) translate(7.5em) rotate(-35deg); 
+  transform: rotate(240deg) translate(7.5em) rotate(-240deg); 
 }
 
 .mail { 
-  transform: rotate(125deg) translate(7.5em) rotate(-125deg); 
+  transform: rotate(0deg) translate(7.5em) rotate(-0deg); 
 }
 
 .stackoverflow { 
-  transform: rotate(185deg) translate(12.5em) rotate(-185deg); 
+  transform: rotate(10deg) translate(12.5em) rotate(-10deg); 
 }
 
 .github { 
-  transform: rotate(345deg) translate(12.5em) rotate(-345deg); 
+  transform: rotate(100deg) translate(12.5em) rotate(-100deg); 
 }
 
 .bitbucket { 
-  transform: rotate(85deg) translate(12.5em) rotate(-85deg); 
+  transform: rotate(190deg) translate(12.5em) rotate(-190deg); 
 }
 
 .codepen { 
-  transform: rotate(245deg) translate(12.5em) rotate(-245deg); 
+  transform: rotate(280deg) translate(12.5em) rotate(-280deg); 
 }
 
 .facebook { 
-  transform: rotate(205deg) translate(17.5em) rotate(-205deg); 
+  transform: rotate(342deg) translate(17.5em) rotate(-342deg); 
 }
 
 .twitter { 
-  transform: rotate(15deg) translate(17.5em) rotate(-15deg); 
+  transform: rotate(54deg) translate(17.5em) rotate(-54deg); 
 }
 
 .instagram { 
-  transform: rotate(65deg) translate(17.5em) rotate(-65deg); 
+  transform: rotate(126deg) translate(17.5em) rotate(-126deg); 
 }
 
 .googleplus { 
-  transform: rotate(135deg) translate(17.5em) rotate(-135deg);
+  transform: rotate(194deg) translate(17.5em) rotate(-194deg);
 }
 
 .snapchat { 
-  transform: rotate(305deg) translate(17.5em) rotate(-305deg); 
+  transform: rotate(270deg) translate(17.5em) rotate(-270deg); 
 }

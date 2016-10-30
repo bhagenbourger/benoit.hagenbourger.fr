@@ -65,12 +65,16 @@
   transform: rotate(345deg) translate(12.5em) rotate(-345deg); 
 }
 
+.bitbucket { 
+  transform: rotate(85deg) translate(12.5em) rotate(-85deg); 
+}
+
 .codepen { 
   transform: rotate(245deg) translate(12.5em) rotate(-245deg); 
 }
 
 .facebook { 
-  transform: rotate(105deg) translate(17.5em) rotate(-105deg); 
+  transform: rotate(205deg) translate(17.5em) rotate(-205deg); 
 }
 
 .twitter { 
@@ -82,7 +86,7 @@
 }
 
 .googleplus { 
-  transform: rotate(205deg) translate(17.5em) rotate(-205deg); 
+  transform: rotate(135deg) translate(17.5em) rotate(-135deg);
 }
 
 .snapchat { 

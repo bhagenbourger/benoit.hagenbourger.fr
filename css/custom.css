@@ -1,0 +1,90 @@
+.circle-big {
+    position: relative;
+    width: 35em;
+    height: 35em;
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+
+.circle-medium {
+    position: relative;
+    top: 3em;
+    width: 25em;
+    height: 25em;
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+
+.circle-little {
+    position: relative;
+    top: 3em;
+    width: 15em;
+    height: 15em;
+    border: dashed 1px;
+    border-radius: 50%;
+    margin: 1.75em auto 0;
+}
+
+.circle-big a {
+    display: block;
+    position: absolute;
+    top: 50%; left: 50%;
+    width: 4em; height: 4em;
+    margin: -2em;
+}
+
+.circle-big img { 
+  display: block; width: 100%;
+  transition: 0.5s ease;
+}
+
+.circle-big img:hover{
+    transform: scale(1.2) rotate(360deg);
+   transition-duration: 0.5s;
+}
+
+.linkedin { 
+  transform: rotate(285deg) translate(7.5em) rotate(-285deg); 
+}
+
+.viadeo { 
+  transform: rotate(35deg) translate(7.5em) rotate(-35deg); 
+}
+
+.mail { 
+  transform: rotate(125deg) translate(7.5em) rotate(-125deg); 
+}
+
+.stackoverflow { 
+  transform: rotate(185deg) translate(12.5em) rotate(-185deg); 
+}
+
+.github { 
+  transform: rotate(345deg) translate(12.5em) rotate(-345deg); 
+}
+
+.codepen { 
+  transform: rotate(245deg) translate(12.5em) rotate(-245deg); 
+}
+
+.facebook { 
+  transform: rotate(105deg) translate(17.5em) rotate(-105deg); 
+}
+
+.twitter { 
+  transform: rotate(15deg) translate(17.5em) rotate(-15deg); 
+}
+
+.instagram { 
+  transform: rotate(65deg) translate(17.5em) rotate(-65deg); 
+}
+
+.googleplus { 
+  transform: rotate(205deg) translate(17.5em) rotate(-205deg); 
+}
+
+.snapchat { 
+  transform: rotate(305deg) translate(17.5em) rotate(-305deg); 
+}

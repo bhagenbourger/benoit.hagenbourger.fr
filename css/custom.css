@@ -1,3 +1,7 @@
+.wrapper{
+    padding-top: 70px;
+}
+
 .circle{
     position: relative;
     border: solid 1px white;

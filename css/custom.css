@@ -1,5 +1,7 @@
 body{
-  background-color: #FF0000;
+  background: linear-gradient(#29B6F6, #4FC3F7, #81D4FA, #B3E5FC, #B3E5FC, #B3E5FC, #B3E5FC);
+  background: -moz-linear-gradient(#29B6F6, #4FC3F7, #81D4FA, #B3E5FC, #B3E5FC, #B3E5FC, #B3E5FC);
+  background: -webkit-linear-gradient(#29B6F6, #4FC3F7, #81D4FA, #B3E5FC, #B3E5FC, #B3E5FC, #B3E5FC);
 }
 
 .wrapper{
@@ -58,10 +60,15 @@ body{
 .me{
     display: block;
     position: absolute;
-    top: 50%; left: 50%;
-    width: 8em; height: 8em;
+    top: 50%; 
+    left: 50%;
+    width: 8em; 
+    height: 8em;
     border-radius: 50%;
     margin: -4em;
+    background: url("../images/me.jpeg") no-repeat; 
+    background-size: 8em 8em;
+    box-shadow: 0px 0px 75px rgba(0,0,0,0.5);
 }
 
 .linkedin { 

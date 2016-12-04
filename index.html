@@ -4,7 +4,24 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="css/custom.css">
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>	
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+		(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+		ga('create', 'UA-88412190-1', 'auto');
+		ga('send', 'pageview');
+	</script>
+	<script>
+		var trackOutboundLink = function(url) {
+		   ga('send', 'event', 'outbound', 'click', url, {
+		     'transport': 'beacon',
+		     'hitCallback': function(){document.location = url;}
+		   });
+		}
+	</script>
 </head>
 <body>
 	<nav class="navbar navbar-inverse navbar-fixed-top">
@@ -18,21 +35,21 @@
 				<div class="wrapper">
 					<div class="circle circle-wrapper">
 						<div class="circle circle-big">
-					  		<a href='https://www.facebook.com/bhagenbourger' class='facebook' target="_blank"><img src='images/icons/facebook.svg' /></a>
-					  		<a href='https://www.instagram.com/bhagenbourger' class='instagram' target="_blank"><img src='images/icons/instagram.svg' /></a>
-					  		<a href='https://twitter.com/bhagenbourger' class='twitter' target="_blank"><img src='images/icons/twitter.svg' /></a>
-					  		<a href='https://plus.google.com/u/0/+Beno%C3%AEtHAGENBOURGER' class='googleplus' target="_blank"><img src='images/icons/googleplus.svg' /></a>
+					  		<a href='https://www.facebook.com/bhagenbourger' class='facebook' onclick="trackOutboundLink('https://www.facebook.com/bhagenbourger'); return false;"><img src='images/icons/facebook.svg' /></a>
+					  		<a href='https://www.instagram.com/bhagenbourger' class='instagram' onclick="trackOutboundLink('https://www.instagram.com/bhagenbourger'); return false;"><img src='images/icons/instagram.svg' /></a>
+					  		<a href='https://twitter.com/bhagenbourger' class='twitter' onclick="trackOutboundLink('https://twitter.com/bhagenbourger'); return false;"><img src='images/icons/twitter.svg' /></a>
+					  		<a href='https://plus.google.com/u/0/+Beno%C3%AEtHAGENBOURGER' class='googleplus' onclick="trackOutboundLink('https://plus.google.com/u/0/+Beno%C3%AEtHAGENBOURGER'); return false;"><img src='images/icons/googleplus.svg' /></a>
 					  		<a href='#' class='snapchat' data-toggle="tooltip" data-placement="bottom" title="Add me on Snapchat: h4g3n8"><img src='images/icons/snapchat.svg' /></a>
 							<div class="circle circle-medium">
-					  			<a href='http://stackoverflow.com/users/6017485/b3n' class='stackoverflow' target="_blank"><img src='images/icons/stackoverflow.svg' /></a>
-					  			<a href='http://codepen.io/bhagenbourger' class='codepen' target="_blank"><img src='images/icons/codepen.svg' /></a>
-					  			<a href='https://github.com/bhagenbourger' class='github' target="_blank"><img src='images/icons/github.svg' /></a>
-					  			<a href='https://bitbucket.org/bhagenbourger' class='bitbucket' target="_blank"><img src='images/icons/bitbucket.svg' /></a>
+					  			<a href='http://stackoverflow.com/users/6017485/b3n' class='stackoverflow' onclick="trackOutboundLink('http://stackoverflow.com/users/6017485/b3n'); return false;"><img src='images/icons/stackoverflow.svg' /></a>
+					  			<a href='http://codepen.io/bhagenbourger' class='codepen' onclick="trackOutboundLink('http://codepen.io/bhagenbourger'); return false;"><img src='images/icons/codepen.svg' /></a>
+					  			<a href='https://github.com/bhagenbourger' class='github' onclick="trackOutboundLink('https://github.com/bhagenbourger'); return false;"><img src='images/icons/github.svg' /></a>
+					  			<a href='https://bitbucket.org/bhagenbourger' class='bitbucket' onclick="trackOutboundLink('https://bitbucket.org/bhagenbourger'); return false;"><img src='images/icons/bitbucket.svg' /></a>
 								<div class="circle circle-little">
 					      			<div class='me' data-toggle="tooltip" data-placement="top" title="Hi! I'm Beno&icirc;t, I'm a fan of new technologies, innovation, sport and good food."></div>
-						  			<a href='mailto:benoit@hagenbourger.fr' class='mail' target="_blank"><img src='images/icons/mail.svg' /></a>
-						  			<a href='https://www.viadeo.com/p/002l0wla7k05p7m' class='viadeo' target="_blank"><img src='images/icons/viadeo.svg' /></a>
-						  			<a href='https://www.linkedin.com/in/bhagenbourger' class='linkedin' target="_blank"><img src='images/icons/linkedin.svg' /></a>
+						  			<a href='mailto:benoit@hagenbourger.fr' class='mail'><img src='images/icons/mail.svg' /></a>
+						  			<a href='https://www.viadeo.com/p/002l0wla7k05p7m' class='viadeo' onclick="trackOutboundLink('https://www.viadeo.com/p/002l0wla7k05p7m'); return false;"><img src='images/icons/viadeo.svg' /></a>
+						  			<a href='https://www.linkedin.com/in/bhagenbourger' class='linkedin' onclick="trackOutboundLink('https://www.linkedin.com/in/bhagenbourger'); return false;"><img src='images/icons/linkedin.svg' /></a>
 								</div>
 							</div>
 						</div>

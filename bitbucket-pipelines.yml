@@ -6,7 +6,16 @@
 # image: docker-image:tag
 
 pipelines:
-  default:
-    - step:
-        script:
-          - echo "Everything is awesome!"
+  branches:
+    prod:
+      - step:
+          script:
+            - echo "Start deploying"
+            - apt-get update
+            - apt-get -qq install git-ftp
+            - echo "'_$(git status -uno --porcelain | wc -l)_'"
+            - git status -uno --porcelain
+            - echo "Initiating push site:src"
+            - git config git-ftp.syncroot src/
+            - git ftp init --user $FTP_LOGIN --passwd $FTP_PASSWORD $FTP_URL
+            - echo "Deployment complete"

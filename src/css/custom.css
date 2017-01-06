@@ -83,24 +83,28 @@ body{
   transform: rotate(0deg) translate(11.25em) rotate(-0deg); 
 }
 
-.stackoverflow { 
-  transform: rotate(10deg) translate(18.75em) rotate(-10deg); 
+.npmjs { 
+  transform: rotate(20deg) translate(18.75em) rotate(-20deg); 
 }
 
 .github { 
-  transform: rotate(100deg) translate(18.75em) rotate(-100deg); 
+  transform: rotate(92deg) translate(18.75em) rotate(-92deg); 
 }
 
 .bitbucket { 
-  transform: rotate(190deg) translate(18.75em) rotate(-190deg); 
+  transform: rotate(159deg) translate(18.75em) rotate(-159deg); 
 }
 
 .codepen { 
-  transform: rotate(280deg) translate(18.75em) rotate(-280deg); 
+  transform: rotate(231deg) translate(18.75em) rotate(-231deg); 
+}
+
+.stackoverflow { 
+  transform: rotate(304deg) translate(18.75em) rotate(-304deg); 
 }
 
 .facebook { 
-  transform: rotate(342deg) translate(26.25em) rotate(-342deg); 
+  transform: rotate(340deg) translate(26.25em) rotate(-340deg); 
 }
 
 .twitter { 

@@ -1,0 +1,66 @@
+<html>
+<head>
+	<title>Beno&icirc;t HAGENBOURGER</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.css">
+    <link rel="stylesheet" type="text/css" href="css/custom.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/semantic-ui/2.2.6/semantic.min.js"></script>
+</head>
+<body>
+	<div class="ui fixed inverted main menu">
+	  <span class="item">
+	    Welcome to my social galaxy!
+	  </span>
+	  <a class="item right" onclick="toggleSidebar(); return false;">
+	    <i class="content icon"></i>
+	  </a>
+	</div>
+	<div id="app" class="full height">
+		<div class="ui right sidebar inverted vertical menu">
+			<a class="item" href="countdown/christmas.html">
+			  Simplecountdown christmas
+			</a>
+			<a class="item" href="countdown/playa.html">
+			  Simplecountdown playa
+			</a>
+			<a class="item" href="countdown/year.html">
+			  Simplecountdown year
+			</a>
+		</div>
+		<div class="pusher">
+			<div class="circle circle-wrapper">
+				<div class="circle circle-big">
+			  		<a href='https://www.facebook.com/bhagenbourger' class='facebook' onclick="trackOutboundLink('https://www.facebook.com/bhagenbourger'); return false;"><img src='images/icons/facebook.svg' /></a>
+			  		<a href='https://www.instagram.com/bhagenbourger' class='instagram' onclick="trackOutboundLink('https://www.instagram.com/bhagenbourger'); return false;"><img src='images/icons/instagram.svg' /></a>
+			  		<a href='https://twitter.com/bhagenbourger' class='twitter' onclick="trackOutboundLink('https://twitter.com/bhagenbourger'); return false;"><img src='images/icons/twitter.svg' /></a>
+			  		<a href='https://plus.google.com/u/0/+Beno%C3%AEtHAGENBOURGER' class='googleplus' onclick="trackOutboundLink('https://plus.google.com/u/0/+Beno%C3%AEtHAGENBOURGER'); return false;"><img src='images/icons/googleplus.svg' /></a>
+			  		<a href='#' class='snapchat' data-toggle="tooltip" data-placement="bottom" title="Add me on Snapchat: h4g3n8"><img src='images/icons/snapchat.svg' /></a>
+					<div class="circle circle-medium">
+			  			<a href='http://stackoverflow.com/users/6017485/b3n' class='stackoverflow' onclick="trackOutboundLink('http://stackoverflow.com/users/6017485/b3n'); return false;"><img src='images/icons/stackoverflow.svg' /></a>
+			  			<a href='http://codepen.io/bhagenbourger' class='codepen' onclick="trackOutboundLink('http://codepen.io/bhagenbourger'); return false;"><img src='images/icons/codepen.svg' /></a>
+			  			<a href='https://github.com/bhagenbourger' class='github' onclick="trackOutboundLink('https://github.com/bhagenbourger'); return false;"><img src='images/icons/github.svg' /></a>
+			  			<a href='https://bitbucket.org/bhagenbourger' class='bitbucket' onclick="trackOutboundLink('https://bitbucket.org/bhagenbourger'); return false;"><img src='images/icons/bitbucket.svg' /></a>
+			  			<a href='https://www.npmjs.com/~bhagenbourger' class='npmjs' onclick="trackOutboundLink('https://www.npmjs.com/~bhagenbourger'); return false;"><img src='images/icons/npmjs.svg' /></a>
+						<div class="circle circle-little">
+			      			<div class='me' data-toggle="tooltip" data-placement="top" title="Hi! I'm Beno&icirc;t, I'm a fan of new technologies, innovation, sport and good food."></div>
+				  			<a href='mailto:benoit@hagenbourger.fr' class='mail'><img src='images/icons/mail.svg' /></a>
+				  			<a href='https://www.viadeo.com/p/002l0wla7k05p7m' class='viadeo' onclick="trackOutboundLink('https://www.viadeo.com/p/002l0wla7k05p7m'); return false;"><img src='images/icons/viadeo.svg' /></a>
+				  			<a href='https://www.linkedin.com/in/bhagenbourger' class='linkedin' onclick="trackOutboundLink('https://www.linkedin.com/in/bhagenbourger'); return false;"><img src='images/icons/linkedin.svg' /></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		function toggleSidebar(){
+			$('#app .ui.sidebar')
+			  .sidebar({context:$('#app')})
+			  .sidebar('setting', 'dimPage', false)
+			  .sidebar('setting', 'transition', 'overlay')
+			  .sidebar('toggle')
+			;
+		}
+	</script>
+</body>
+</html>

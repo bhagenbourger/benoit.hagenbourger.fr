@@ -48,7 +48,7 @@ body{
     margin: -2em;
 }
 
-.circle-big a img { 
+.circle-big a img {
   display: block; width: 100%;
   transition: 0.5s ease;
 }
@@ -61,65 +61,65 @@ body{
 .me{
     display: block;
     position: absolute;
-    top: 50%; 
+    top: 50%;
     left: 50%;
-    width: 8em; 
+    width: 8em;
     height: 8em;
     border-radius: 50%;
     margin: -4em;
-    background: url("../images/me.jpeg") no-repeat; 
+    background: url("https://secure.gravatar.com/avatar/bf1a732de7305fe166047d8360329377") no-repeat;
     background-size: 8em 8em;
     box-shadow: 0px 0px 75px rgba(0,0,0,0.5);
 }
 
-.linkedin { 
-  transform: rotate(120deg) translate(11.25em) rotate(-120deg); 
+.linkedin {
+  transform: rotate(120deg) translate(11.25em) rotate(-120deg);
 }
 
-.viadeo { 
-  transform: rotate(240deg) translate(11.25em) rotate(-240deg); 
+.viadeo {
+  transform: rotate(240deg) translate(11.25em) rotate(-240deg);
 }
 
-.mail { 
-  transform: rotate(0deg) translate(11.25em) rotate(-0deg); 
+.mail {
+  transform: rotate(0deg) translate(11.25em) rotate(-0deg);
 }
 
-.npmjs { 
-  transform: rotate(20deg) translate(18.75em) rotate(-20deg); 
+.npmjs {
+  transform: rotate(20deg) translate(18.75em) rotate(-20deg);
 }
 
-.github { 
-  transform: rotate(92deg) translate(18.75em) rotate(-92deg); 
+.github {
+  transform: rotate(92deg) translate(18.75em) rotate(-92deg);
 }
 
-.bitbucket { 
-  transform: rotate(159deg) translate(18.75em) rotate(-159deg); 
+.bitbucket {
+  transform: rotate(159deg) translate(18.75em) rotate(-159deg);
 }
 
-.codepen { 
-  transform: rotate(231deg) translate(18.75em) rotate(-231deg); 
+.codepen {
+  transform: rotate(231deg) translate(18.75em) rotate(-231deg);
 }
 
-.stackoverflow { 
-  transform: rotate(304deg) translate(18.75em) rotate(-304deg); 
+.stackoverflow {
+  transform: rotate(304deg) translate(18.75em) rotate(-304deg);
 }
 
-.facebook { 
-  transform: rotate(340deg) translate(26.25em) rotate(-340deg); 
+.facebook {
+  transform: rotate(340deg) translate(26.25em) rotate(-340deg);
 }
 
-.twitter { 
-  transform: rotate(54deg) translate(26.25em) rotate(-54deg); 
+.twitter {
+  transform: rotate(54deg) translate(26.25em) rotate(-54deg);
 }
 
-.instagram { 
-  transform: rotate(126deg) translate(26.25em) rotate(-126deg); 
+.instagram {
+  transform: rotate(126deg) translate(26.25em) rotate(-126deg);
 }
 
-.googleplus { 
+.googleplus {
   transform: rotate(194deg) translate(26.25em) rotate(-194deg);
 }
 
-.snapchat { 
-  transform: rotate(270deg) translate(26.25em) rotate(-270deg); 
+.snapchat {
+  transform: rotate(270deg) translate(26.25em) rotate(-270deg);
 }

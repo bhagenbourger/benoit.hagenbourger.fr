@@ -1,4 +1,0 @@
-AuthUserFile /freeboard/.htpasswd
-AuthName "Restricted access"
-AuthType Basic
-Require valid-user

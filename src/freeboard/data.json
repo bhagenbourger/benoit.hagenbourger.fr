@@ -182,7 +182,7 @@
 				{
 					"type": "picture",
 					"settings": {
-						"src": "https://secure.gravatar.com/avatar/bf1a732de7305fe166047d8360329377?size=300",
+						"src": "//secure.gravatar.com/avatar/bf1a732de7305fe166047d8360329377?size=300",
 						"refresh": 0
 					}
 				},
@@ -220,7 +220,7 @@
 			"name": "Github simplecountdown",
 			"type": "JSON",
 			"settings": {
-				"url": "https://api.github.com/repos/bhagenbourger/simplecountdown/stats/contributors",
+				"url": "//api.github.com/repos/bhagenbourger/simplecountdown/stats/contributors",
 				"use_thingproxy": true,
 				"refresh": 5,
 				"method": "GET"
@@ -230,7 +230,7 @@
 			"name": "Gravatar",
 			"type": "JSON",
 			"settings": {
-				"url": "https://fr.gravatar.com/bhagenbourger.json",
+				"url": "//fr.gravatar.com/bhagenbourger.json",
 				"use_thingproxy": true,
 				"refresh": 86400,
 				"method": "GET"

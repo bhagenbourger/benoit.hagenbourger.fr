@@ -233,7 +233,13 @@
 				"url": "https://fr.gravatar.com/bhagenbourger.json",
 				"use_thingproxy": true,
 				"refresh": 86400,
-				"method": "GET"
+				"method": "GET",
+				"headers": [
+					{
+						"name": "Access-Control-Allow-Origin",
+						"value": "*"
+					}
+				]
 			}
 		}
 	],

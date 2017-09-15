@@ -73,15 +73,15 @@ body{
 }
 
 .linkedin {
-  transform: rotate(120deg) translate(11.25em) rotate(-120deg);
+  transform: rotate(100deg) translate(11.25em) rotate(-100deg);
 }
 
 .viadeo {
-  transform: rotate(240deg) translate(11.25em) rotate(-240deg);
+  transform: rotate(220deg) translate(11.25em) rotate(-220deg);
 }
 
 .mail {
-  transform: rotate(0deg) translate(11.25em) rotate(-0deg);
+  transform: rotate(340deg) translate(11.25em) rotate(-340deg);
 }
 
 .npmjs {
@@ -89,19 +89,27 @@ body{
 }
 
 .github {
-  transform: rotate(92deg) translate(18.75em) rotate(-92deg);
+  transform: rotate(71.5deg) translate(18.75em) rotate(-71.5deg);
+}
+
+.gitlab {
+  transform: rotate(123deg) translate(18.75em) rotate(-123deg);
 }
 
 .bitbucket {
-  transform: rotate(159deg) translate(18.75em) rotate(-159deg);
+  transform: rotate(174.5deg) translate(18.75em) rotate(-174.5deg);
 }
 
 .codepen {
-  transform: rotate(231deg) translate(18.75em) rotate(-231deg);
+  transform: rotate(226deg) translate(18.75em) rotate(-226deg);
+}
+
+.docker {
+  transform: rotate(277.5deg) translate(18.75em) rotate(-277.5deg);
 }
 
 .stackoverflow {
-  transform: rotate(304deg) translate(18.75em) rotate(-304deg);
+  transform: rotate(329deg) translate(18.75em) rotate(-329deg);
 }
 
 .facebook {

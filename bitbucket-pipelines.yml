@@ -15,4 +15,4 @@ pipelines:
             - git config git-ftp.user "$FTP_LOGIN"
             - git config git-ftp.password "$FTP_PASSWORD"
             - git config git-ftp.syncroot src/
-            - git ftp push --force
+            - git ftp push

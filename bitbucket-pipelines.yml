@@ -16,6 +16,9 @@ pipelines:
             - echo "'_$(git status -uno --porcelain | wc -l)_'"
             - git status -uno --porcelain
             - echo "Initiating push site:src"
+            - git config git-ftp.url "$FTP_URL"
+            - git config git-ftp.user "$FTP_LOGIN"
+            - git config git-ftp.password "$FTP_PASSWORD"
             - git config git-ftp.syncroot src/
-            - git ftp push --user $FTP_LOGIN --passwd $FTP_PASSWORD $FTP_URL
+            - git ftp push
             - echo "Deployment complete"

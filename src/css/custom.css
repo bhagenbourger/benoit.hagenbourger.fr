@@ -113,21 +113,13 @@ body{
 }
 
 .facebook {
-  transform: rotate(340deg) translate(26.25em) rotate(-340deg);
+  transform: rotate(35deg) translate(26.25em) rotate(-35deg);
 }
 
 .twitter {
-  transform: rotate(54deg) translate(26.25em) rotate(-54deg);
+  transform: rotate(145deg) translate(26.25em) rotate(-145deg);
 }
 
 .instagram {
-  transform: rotate(126deg) translate(26.25em) rotate(-126deg);
-}
-
-.googleplus {
-  transform: rotate(194deg) translate(26.25em) rotate(-194deg);
-}
-
-.snapchat {
-  transform: rotate(270deg) translate(26.25em) rotate(-270deg);
+  transform: rotate(255deg) translate(26.25em) rotate(-255deg);
 }

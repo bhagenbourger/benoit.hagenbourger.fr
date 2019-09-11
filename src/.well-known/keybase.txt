@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/bhagenbourger
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://benoit.hagenbourger.fr
+  * I am bhagenbourger (https://keybase.io/bhagenbourger) on keybase.
+  * I have a public key ASCuLMYjczNBmThaHkNtlhO-7KUr3SR69MnvUI8LciqyRQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120592546f5727f15e950c8eb15f79bc1463a3c79a979760fbd9015a986d8304ada0a",
+      "host": "keybase.io",
+      "kid": "0120ae2cc62373334199385a1e436d9613beeca52bdd247af4c9ef508f0b722ab2450a",
+      "uid": "6957eba51f39bcede9a41591f8cbf519",
+      "username": "bhagenbourger"
+    },
+    "merkle_root": {
+      "ctime": 1568236394,
+      "hash": "09c71c8f2044f34636ef8ed8af999820eabff16bf9e23a0892fd9d9dc6194e91cac6c56dcf61cc8a4e25d05daf3ab9e3345b5e9e48f3f1f495193350409d364f",
+      "hash_meta": "405a3d54cd1fb5fc24b43f3dd1441deb91115335f7e7cebe27f8c237d2564c52",
+      "seqno": 6819154
+    },
+    "service": {
+      "entropy": "dhyXWCkPWWQtEawklQ4F1guC",
+      "hostname": "benoit.hagenbourger.fr",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568236413,
+  "expire_in": 504576000,
+  "prev": "f822a04c1c13e685ca5a02fd6eff96f3ca21a3b62a54e5f061cc6e272ceea6a7",
+  "seqno": 24,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgrizGI3MzQZk4Wh5DbZYTvuylK90kevTJ71CPC3IqskUKp3BheWxvYWTESpcCGMQg+CKgTBwT5oXKWgL9bv+W88oho7YqVOXwYcxuJyzupqfEIN6BbHgtSgdvQkf+WTODvkBVZCLXSvwjK2f73M0l3BKpAgHCo3NpZ8RASUBa1P00F37YbIgKM2KoGKnHfdqe5NcZmj69hfvMzGP6IYRevZuzPvDsjwxMc1SYvnpiFcqCv//2WTWQkf8QCKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIEqgr9fo17HZcCQalQdWTOUaN5WRsN/FcYfVuXIdtHOOo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/bhagenbourger
+
+==================================================================

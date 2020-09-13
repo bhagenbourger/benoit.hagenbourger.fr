@@ -1,0 +1,16 @@
+image: alpine:latest
+
+stages:
+  - publish
+
+pages:
+  stage: publish
+  script:
+    - mkdir -p ./public
+    - cp src/* ./public/
+  artifacts:
+    paths:
+      - public
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "master"'
+      when: on_success
